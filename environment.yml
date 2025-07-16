@@ -1,0 +1,24 @@
+name: UBDS_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Conda packages
+  - matplotlib=3.9.3
+  - seaborn=0.12.2
+  - scipy=1.15.2
+  - umap-learn
+  - statsmodels=0.14.0
+  - graphviz=2.50.0
+  - pip  # Ensure pip is included for pip packages
+
+  # PIP dependencies
+  - pip:
+      - scikit-learn==1.6.1
+      - pandas==2.2.3
+      - numpy==2.1.3
+      - kagglehub==0.3.12
+      - protobuf==3.20.0  # Set to compatible version
+      - keras==2.6.0  # Use a version of Keras compatible with protobuf 3.20.0
+#      - tensorflow==2.6.0  # Use TensorFlow 2.6.0, which works with protobuf 3.20.0
+
