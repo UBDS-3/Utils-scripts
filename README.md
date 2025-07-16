@@ -2,11 +2,6 @@
 
 This repository contains utility scripts for managing libraries, dependencies, and datasets for your project.
 
-## Overview
-
-This project provides the required libraries, dependencies, and datasets to get started quickly. You can set up your development environment by following the platform-specific instructions below.
-
----
 
 ## For Windows Users
 
